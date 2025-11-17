@@ -88,7 +88,7 @@ ul {text-shadow: 0 0 10px #00FFFF; padding: 12px 36px; border: 2px solid darkmag
 width: fit-content; margin: 1em auto; 
 list-style-position: inside; background-color: #3a1845; font-size: 22px;}
 li {margin:0.4em 0;
-  display: list-item; font-size:larger; font-family: monospace;
+  display: list-item; font-size:larger; font-family: monospace; text-align: left;
 }
 
 @keyframes flashborder {
