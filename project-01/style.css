@@ -43,7 +43,7 @@ h2{
   background-color: #3a1845;
 }
 
-.nav {background-color: rgb(0, 255, 255, 0.5); padding: 8px; display: inline-block; font-size: 20 px;}
+.nav {background-color: rgb(0, 255, 255, 0.5); padding: 8px; display: inline-block; font-size: 20 px; border-radius: 5px;}
 
 .typewriter {
 position: relative;
