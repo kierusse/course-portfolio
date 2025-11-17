@@ -1,6 +1,6 @@
 body {background-color:#3a1845;
 color: rgb(255 255 204);font-family: monospace;text-align: center;font-family: monospace; 
-scroll-behavior: smooth; y mandatory; overflow-y: scroll;}
+scroll-behavior: smooth; y: mandatory; overflow-y: scroll;}
 
 .autoShow {
   animation: text-appear both;
