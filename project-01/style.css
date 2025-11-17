@@ -43,6 +43,8 @@ h2{
   background-color: #3a1845;
 }
 
+.nav {background-color: rgb(0, 255, 255, 0.5); padding: 8px; display: inline-block; font-size: 20 px;}
+
 .typewriter {
 position: relative;
  display: inline-block;
@@ -114,3 +116,5 @@ animation: flashborder 2s infinite;
 background-color: #777799; color: rgb(255 255 204); box-shadow: 8px 8px 5px rgb(128, 0, 128); font-size: 30px}
 
 .socials {display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 20px;}
+
+.footer {background-color: #993344; padding: 8px; display: inline-block; border: 5px solid #3a1845; font-size: 20 px}
