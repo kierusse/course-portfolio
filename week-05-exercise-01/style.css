@@ -90,18 +90,18 @@ button {
 }
 
 .button-03 {
-    background-color: #c500cc;
-    color: #ffffff;
+    background-color: #600e27;
+    color: #070000;
+    font-weight: bold;
     padding: 16px 32px;
-    border: 2px solid #c500cc;
-    font-family: 'Courier New', Courier, monospace;
-    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+    border: 6px solid #300310;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button-03:hover {
-    background-color: #ffffff;
-    color: #c500cc;
-    border-color: #28e017;
+    transform: translate(8px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-04 {
@@ -119,21 +119,6 @@ button {
 }
 
 .button-05 {
-    background-color: #600e27;
-    color: #070000;
-    font-weight: bold;
-    padding: 16px 32px;
-    border: 6px solid #300310;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.button-05:hover {
-    transform: translate(8px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.button-06 {
     background-color: #5800cc;
     color: #ffffff;
     padding: 16px 32px;
@@ -142,8 +127,23 @@ button {
     transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 }
 
-.button-06:hover {
+.button-05:hover {
     background-color: #ffffff;
     color: #5800cc;
     border-color: #5800cc;
+}
+
+.button-06 {
+    background-color: #c500cc;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #c500cc;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.button-06:hover {
+    background-color: #ffffff;
+    color: #c500cc;
+    border-color: #28e017;
 }
