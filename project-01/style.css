@@ -6,6 +6,7 @@ scroll-behavior: smooth; y: mandatory; overflow-y: scroll;}
 
 main {flex-grow: 1;}
 
+
 :root {
   /* Color Palette */
   --primary-color: #0066CC;
@@ -72,6 +73,22 @@ h2{
   font-size: 30px;
   margin: 2%;
   background-color: #3a1845;
+}
+
+@media screen and (width >= 600px) {
+  .wrapper {
+    display: flex;
+  }
+
+  .col1 {
+    flex: 1;
+    margin-right: 5%;
+  }
+
+  .col2 {
+    flex: 1;
+    margin-right: 5%
+  }
 }
 
 .nav {background-color: rgb(0, 255, 255, 0.5); padding: 8px; display: inline-block; font-size: 20 px; border-radius: 5px; transition: 
