@@ -107,7 +107,7 @@ button {
 .button-04 {
     background-color: #600e27;
     color: #ffffff;
-    padding: 16px 32px;
+    padding: 8px 12px;
     border: 4px solid #300310;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -125,7 +125,7 @@ button {
     padding: 16px 32px;
     border: 2px solid #5800cc;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 }
 
 .button-05:hover {
