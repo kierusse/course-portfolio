@@ -110,7 +110,7 @@ button {
     padding: 16px 32px;
     border: 2px solid #f1dd28;
     font-family: Arial, Helvetica, sans-serif;
-    transition: transform 0.3s linear, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button-04:hover {
