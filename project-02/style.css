@@ -26,25 +26,6 @@ h1 {
   }
 }
 
-:root {
-  /* Color Palette */
-  --primary-color: #0066CC;
-  --primary-hover-color: #004499;
-  --text-color: #333333;
-  --background-color: #FFFFFF;
-  --accent-color: #CC0000;
-  
-  /* Typography */
-  --font-main: "Times New Roman", serif;
-  --font-size-base: 16px;
-  --font-size-large: 24px;
-  --font-size-heading: 48px;
-  
-  /* Spacing */
-  --spacing-small: 8px;
-  --spacing-medium: 16px;
-  --spacing-large: 32px;
-}
 
 .button {
   background-color: var(--primary-color);
