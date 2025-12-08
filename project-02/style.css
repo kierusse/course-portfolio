@@ -27,17 +27,20 @@ h1 {
 }
 
 
-.button {
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  font-family: var(--font-main);
-  padding: var(--spacing-medium) var(--spacing-large);
-  transition: background-color 0.3s ease;
+.button-05 {
+  background-color: #5800cc;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 16px 32px;
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 }
 
-.button:hover {
-  background-color: var(--primary-hover-color);
+.button-05:hover {
+  background-color: #fffff;
+  color: #5800cc;
+border-color: #5800cc;
 }
+
 
 section {
   scroll-snap-align: start;
