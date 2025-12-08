@@ -6,6 +6,11 @@ scroll-behavior: smooth; y: mandatory; overflow-y: scroll;}
 
 main {flex-grow: 1;}
 
+@media screen and (width >= 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
 
 :root {
   /* Color Palette */
